@@ -2,4 +2,4 @@ FROM node
 RUN git clone https://github.com/tensorflow/playground.git
 WORKDIR /playground
 RUN npm install
-ENTRYPOINT ["nmp","run","serve"]
+ENTRYPOINT ["npm","run","serve"]
